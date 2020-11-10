@@ -31,9 +31,11 @@ data.forEach(function(ufoData) {
 
 // Create an event handler when button is clicked
 var button = d3.select("#filter-btn");
+// var form = d3.select(".form-group")
 
 // when clicked or submitted run the function runEnter
 button.on("click", runEnter);
+// form.on("submit", runEnter);
 
 function runEnter() {
     // Prevent the page from refreshing
