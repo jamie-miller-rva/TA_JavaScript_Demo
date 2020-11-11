@@ -55,24 +55,14 @@ body {
 /* Adding styles to the aside and filter form */
 .ufo-form {
   margin-top: 50px;
-  text-align: center;
 }
 
 .filters .panel-body {
   padding: 0;
-  text-align: center;
 }
 
-.filter {
-  margin-top: 0px;
-  text-align: center;
-}
-
-#filter-btn {
-  font-weight: bold;
-  background: gray;
-  align-content: center;
-  margin: 0px 25px 25px 25px;
+.filters {
+  margin-top: 10px;
 }
 
 select {
@@ -104,8 +94,8 @@ select {
 /* The styles for the parallax */
 .hero {
   position: relative;
-  height: 250px;
-  padding: 10px;
+  height: 550px;
+  padding: 20px;
   margin: 0;
   background: black;
   background-image: url("../images/nasa.jpg");
@@ -115,14 +105,8 @@ select {
 }
 
 .hero h1 {
-  margin-top: 50px;
+  margin-top: 200px;
   font-size: 0.1rem;
-  animation: title 1.2s forwards linear;
-}
-
-.hero h4 {
-  margin-top: 10px;
-  font-size: 2rem
   animation: title 1.2s forwards linear;
 }
 
